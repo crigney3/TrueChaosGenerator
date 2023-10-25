@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.webp';
 import React, {
   useState
 } from 'react';
@@ -26,15 +26,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={getBoth}>
-          Generate spell!
-        </button>
-        <button onClick={getVerb}>
-          Replace the verb!
-        </button>
-        <button onClick={getNoun}>
-          Replace the noun!
-        </button>
+        <div className='App-Buttons'>
+          <button onClick={getBoth} className='App-Button-Main'>
+            Generate spell!
+          </button>
+          <div className='App-Buttons-Extra'>
+            <button onClick={getVerb}>
+              Replace the verb!
+            </button>
+            <button onClick={getNoun}>
+              Replace the noun!
+            </button>
+          </div>
+        </div>
+
         <p>
           {currentVerb} {currentNoun}
         </p>

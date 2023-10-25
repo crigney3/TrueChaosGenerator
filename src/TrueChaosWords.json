@@ -67,7 +67,9 @@
         "plant",
         "disease",
         "poison",
-        "condition"
+        "condition",
+        "knowledge",
+        "self"
     ],
     "verbs": [
         "create",
