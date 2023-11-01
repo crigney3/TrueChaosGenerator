@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -15,7 +20,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +35,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 1px;
+}
+
+.Spell-Words {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: calc(40px + 2vmin);
 }
 
 .App-Buttons button {
@@ -39,6 +52,26 @@
   padding: 20px;
   font-size: 2vmin;
   border-radius: 55%;
+}
+
+.Modifier-Values {
+
+}
+
+.Range-Of {
+
+}
+
+.Range-Modifier {
+
+}
+
+.Damage-Of {
+
+}
+
+.Damage-Modifier {
+
 }
 
 @keyframes App-logo-spin {

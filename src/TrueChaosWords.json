@@ -136,6 +136,38 @@
         "frighten",
         "replace with",
         "flee from",
-        "spray"
+        "spray",
+        "whack",
+        "psychoanalyze"
+    ],
+    "ranges": [
+        "intended target(s)",
+        "nearest creature",
+        "nearest human",
+        "10ft cube, chosen by player",
+        "10ft cube, centered on self",
+        "20ft cube, chosen by player",
+        "20ft cube, centered on self",
+        "10ft radius circle, chosen by player",
+        "10ft radius circle, centered on self",
+        "20ft radius circle, chosen by player",
+        "20ft radius circle, centered on self",
+        "30ft line, extending from player",
+        "30ft line, centered on player and perpendicular to them",
+        "60ft line, extending from player",
+        "60ft line, centered on player and perpendicular to them",
+        "20ft cone, extending from player",
+        "20ft cone, straight up",
+        "40ft cone, extending from player",
+        "40ft cone, straight up"
+    ],
+    "damageDie": [
+        "d2",
+        "d4",
+        "d6",
+        "d8",
+        "d10",
+        "d12",
+        "d20"
     ]
 }
