@@ -69,7 +69,15 @@
         "poison",
         "condition",
         "knowledge",
-        "self"
+        "self",
+        "undead",
+        "rock",
+        "lightning",
+        "arms",
+        "legs",
+        "head",
+        "armor",
+        "tree"
     ],
     "verbs": [
         "create",
@@ -81,8 +89,12 @@
         "banish",
         "illusionary",
         "prevent",
+        "discover",
         "refuse",
         "sample",
+        "deceive",
+        "capture",
+        "bless",
         "heat",
         "freeze",
         "melt",
@@ -138,7 +150,14 @@
         "flee from",
         "spray",
         "whack",
-        "psychoanalyze"
+        "psychoanalyze",
+        "aggravate",
+        "help",
+        "imitate",
+        "paralyze",
+        "transform",
+        "protect",
+        "repel"
     ],
     "ranges": [
         "intended target(s)",

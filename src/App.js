@@ -4,6 +4,7 @@ import React, {
 } from 'react';
 import './App.css';
 import allWords from './TrueChaosWords.json'
+import DocumentMeta from 'react-document-meta';
 
 function App() {
   const [currentVerb, setCurrentVerb] = useState("");
@@ -67,8 +68,14 @@ function App() {
     ) : null
   }
 
+  const meta = {
+    title: 'True Chaos Sorcerer Generator',
+    description: 'The worst spells in all of tabletop gaming.'
+  }
+
   return (
     <div className="App">
+      <DocumentMeta {...meta} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className='App-Buttons'>
