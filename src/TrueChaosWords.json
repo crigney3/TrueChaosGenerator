@@ -77,7 +77,11 @@
         "legs",
         "head",
         "armor",
-        "tree"
+        "tree",
+        "treasure",
+        "ground",
+        "walls",
+        "ceiling"
     ],
     "verbs": [
         "create",
@@ -157,7 +161,17 @@
         "paralyze",
         "transform",
         "protect",
-        "repel"
+        "repel",
+        "copy",
+        "attack with",
+        "find",
+        "empower",
+        "summon",
+        "heal",
+        "weaken",
+        "burn",
+        "control",
+        "hold"
     ],
     "ranges": [
         "intended target(s)",
